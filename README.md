@@ -51,27 +51,32 @@
 
 1. **Clone o repositório:**
    ```bash
+   
    git clone https://github.com/rubens-maldonado/LIBFT.git
 
 2. **Compile a biblioteca:**
-    ´´´bash
+   ```bash
+   
     cd libft
     make
 
 3. **Inclua no seu projeto:** Adicione a biblioteca ao seu código incluindo o arquivo 'libft.h' e fazendo o link com o arquivo estático 'libft.a'.
-
-Exemplo de código:
+  Exemplo:
+    ```c
 
     #include "libft.h"
 
 4. **Limpeza:** Para remover arquivos temporários e a biblioteca compilada:
     ```bash
+    
     make clean
 
-Para remover todos os arquivos, incluindo o arquivo 'libft.a':
+5. **Para remover todos os arquivos**, incluindo o arquivo 'libft.a':
     ```bash
+    
     make fclean
 
-5. **Recompilar:** Para recompilar o projeto:
+6. **Recompilar:** Para recompilar o projeto:
     ```bash
+    
     make re
