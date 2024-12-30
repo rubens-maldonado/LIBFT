@@ -51,7 +51,7 @@
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/rubens-maldonado/libft.git
+   git clone https://github.com/rubens-maldonado/LIBFT.git
 
 2. **Compile a biblioteca:**
     ´´´bash
